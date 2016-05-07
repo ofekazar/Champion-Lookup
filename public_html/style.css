@@ -1,0 +1,236 @@
+body {
+	text-align: left;
+}
+
+.container {
+	width: 85%;
+}
+
+/* Header */
+
+.header {
+	background-color: rgba(211, 211, 211, 0.2);
+	border-bottom: 1px solid #000;
+
+	font-size: 17px;
+	padding: 15px;
+}
+
+.site_title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+
+	float:left;
+	margin-top: 0px;
+}
+
+.menu {
+	float: right;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.menu {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+.menu > li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu a {
+	color: #898989;
+}
+
+/* Home Page */
+
+.main_picture {
+	display: block;
+	width:100%;
+	height: 100%
+
+	margin-left: auto;
+	margin-right: auto;
+
+	z-index: -1;
+}
+
+.app_body {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.form_color {
+	display: inline-block;
+	background-color: rgba(211, 211, 211, 0.3);
+	width: 100%;
+	height: 100%;
+}
+
+.input_container {
+	width: auto;
+	height: auto;
+	position:absolute;
+	
+	top: 60%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+	border: none;
+	z-index:10;
+}
+
+.update_home p {
+	font-size:16px;
+}
+
+.update_home {
+	text-align: center;
+}
+
+/* Form */
+
+form {
+	margin-top: 2%;
+}
+
+form input {
+    background: #f0f0f0;
+
+    border: none;
+    border-left: 2px solid #fff;
+
+    font-size: 20px;
+    padding: 12px;
+    width: 100%;
+    height: 30%;
+
+    transition: background 1s, border-left 1s;
+}
+
+form input:focus {
+    background: #d3d3d3;
+    border-left: 2px solid #000;
+    box-shadow: none;
+    outline: none;
+}
+
+
+button.btn {
+    background: rgba(211, 211, 211, 1);
+    border: none;
+
+    color: #4169E1;
+    cursor: pointer;
+
+    float:left;
+    font-size: 20px;
+
+    padding: 11px 18px;
+
+    transition: background 1s, color 1s;
+}
+
+button.btn:hover {
+    background: #4169E1;
+    color: #fff;
+}
+
+.region_text {
+	color: #000;
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.region_dropdown {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(http://bavotasan.com/wp-content/uploads/2011/05/down_arrow_select.jpg) no-repeat right #ddd;
+   border: 1px solid #ccc;
+
+}
+
+.region_dropdown select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+/* Results Page */
+
+.splash {
+	position: absolute;
+	max-width : 80%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* About Page */
+
+.about h3 {
+	font-weight: 600;
+}
+
+.about h4 {
+	font-weight: 600;
+}
+
+.about p {
+	font-size:16px;
+}
+
+.about {
+	text-align: left;
+	background-color: rgba(210, 210, 210, 0.4);
+	padding: 20px;
+	border-left: 3px solid #add8e6;
+}
+
+/* Update Page */
+
+.update h3 {
+	font-weight: 600;
+}
+
+.update h4 {
+	font-weight: 600;
+}
+
+.update p {
+	font-size:16px;
+}
+
+.update_grey {
+	text-align: left;
+	background-color: rgba(210, 210, 210, 0.4);
+	padding: 20px;
+	border-left: 3px solid #add8e6;
+}
+
+.update_white {
+	text-align: left;
+	padding: 20px;
+	border-left: 3px solid #add8e6;
+}
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Champion Lookup</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,500' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
+            <h1 class="site_title">Champion Lookup</h1>
+          </div>
+            <div class="col-xs-8 col-md-8">
+            <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="updates.html">Updates</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="app_body">
+      <img class="main_picture" src="http://1.bp.blogspot.com/-Aag5Hbe3Z2g/U6DHjkuF3FI/AAAAAAAARy0/pmpTmFr8_1c/s1600/srrrr.jpg" />
+      <div class="input_container">
+        <div class="col-xs-2 col-md-3">
+        </div>
+
+        <div class="col-xs-8 col-md-6">
+          <div class="form_color"> 
+            <form class="form" action="results.php">
+              <div class="col-xs-8 col-md-10">
+                <input id="commant" name="summoner_name" type="text" placeholder=" Enter your summoner name">
+              </div>
+              <div class="col-xs-4 col-md-2">
+                <button type="submit" class="btn">Find</button>
+              </div>
+              <div class="region_selection_container">
+                <div class="col-xs-4 col-md-3">
+                  <div class="region_text">
+                    <h4>Region: </h4>
+                  </div>
+                </div>
+                <div class="col-xs-8 col-md-9">
+                  <div class="region_dropdown">
+                    <select name="select_region">
+                      <option value='br'>Brazil</option>
+                      <option value='eune'>EU Nordic East</option>
+                      <option value='euw'>EU West</option>
+                      <option value='lan'>Latin America North</option>
+                      <option value='las'>Latin America South</option>
+                      <option value='na'>North America</option>
+                      <option value='oc'>Oceania</option>
+                      <option value='ru'>Russia</option>
+                      <option value='tr'>Turkey</option>
+                      <option value='jp'>Japan</option>
+                      <option value='kr'>Korea</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xs-2 col-md-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="update_home">
+        <h3>How Does It Work</h3>
+        <p>
+          This program compares your champion mastery points distribution to other players with similar division of points in order to recommand you champions that might suite you and you don't normally play. <br/>
+          For more indepth look at how does this site work visit the <a href="about.html">about</a> page.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
