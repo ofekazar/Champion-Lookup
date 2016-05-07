@@ -42,27 +42,45 @@ For each following value of *a* use this formola to add points to that champion 
 ($innerChampionMastery / $outerChampionMastery) * 100 * ($outerChampionMastery / $summonerTopChampion)
 
 For *a* it will look like that,
+	
 	First the inner champion is b
+	
 		b / a * 100 * a / a
+	
 		0.5 * 100 * 1 = 50
+	
 	Second the inner is c
+	
 		c / a * 100 * a / a
+	
 		0.25 * 100 * 1 = 25
+	
 	The last one is d
+	
 		d / a * 100 * a / a
+	
 		0.125 * 100 * 1 = 12.5
 
 Those values will be added as key => value pairs in a column
 
 Then for *b* we do the same
+	
 	First a
+	
 		a / b * 100 * b / a
+	
 		2 * 100 * 0.5 = 100
+	
 	Second c (remmember we skip the outer champion)
+	
 		c / b * 100 * b / a
+	
 		0.5 * 100 * 0.5 = 25
+	
 	Third d
+	
 		d / b * 100 * b / a
+	
 		0.25 * 100 * 0.5 = 12.5
 
 And so on..
